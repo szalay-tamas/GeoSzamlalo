@@ -15,13 +15,13 @@
 <body>
     <div class="conatiner-fluid">
         <div class="container-sm bg-secondary border text-center">
-            <div class="card-deck my-3 col-md-12">
+            <div class="card-deck my-3 col-md-16">
                 <div class="card bg-dark">
                     <form autocomplete="on"> 
-                        <h4>Rombusz</h4>                                         
-                        <label for="Aoldal">Az "a" oldal hosszúsága</label>
-                        <input type="number" id="Aoldal" name="Aoldal">
-                        <label for="mertekegyseg"></label>
+                        <h4><a href="index.html">Rombusz</a></h4>                                      
+                        <label class="pt-2" for="AoldalR">Az "a" oldal hosszúsága</label>
+                        <input type="number" id="AoldalR" name="AoldalR">
+                        <label class="pl-3" for="mertekegyseg"></label>
                         <select id="mertekegyseg" name="mertekegyseg">
                           <option value="mm">mm</option>
                           <option value="cm">cm</option>
@@ -29,10 +29,9 @@
                           <option value="m">m</option>
                           <option value="km">km</option> 
                         </select> <br>
-                        <h5 class="text-left">Kerület</h5>
-                        <label for="atlo">Rövidebb átlo hosszúsága</label>
-                        <input type="number" id="atlo" name="atlo">
-                        <label for="mertekegyseg"></label>
+                        <label class="pt-2" for="atloR">Rövidebb átlo hosszúsága</label>
+                        <input type="number" id="atloR" name="atloR">
+                        <label class="pl-3" for="mertekegyseg"></label>
                         <select id="mertekegyseg" name="mertekegyseg">
                             <option value="mm">mm</option>
                             <option value="cm">cm</option>
@@ -40,28 +39,42 @@
                             <option value="m">m</option>
                             <option value="km">km</option> 
                         </select> <br>
-                        <label for="atlo1">Hosszabb átlo hosszúsága</label>
-                        <input type="number" id="atlo1" name="atlo1">
-                        <label for="mertekegyseg"></label>
+                        <label class="pt-2" for="atlo1R">Hosszabb átlo hosszúsága</label>
+                        <input type="number" id="atlo1R" name="atlo1R">
+                        <label class="pl-3" for="mertekegyseg"></label>
                         <select id="mertekegyseg" name="mertekegyseg">
                             <option value="mm">mm</option>
                             <option value="cm">cm</option>
                             <option value="dm">dm</option>
                             <option value="m">m</option>
                             <option value="km">km</option> 
-                        </select> <br>
-                        <h5 class="text-left">Terület</h5>
-
+                        </select> <br> 
+                        <div class="row mb-2 ">
+                            <h5 class="col-12 col-md-4 py-3">
+                                <label for="eredmenyRK">Kerület</label>
+                            </h5>
+                            <div class="col-12 col-md-4 py-3">
+                                <input type="text" class="form-control" id="eredmenyRK" disabled >
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <h5 class="col-12 col-md-4 pb-3">
+                                <label for="eredmenyRT">Terület</label>
+                            </h5>
+                            <div class="col-12 col-md-4 pb-3">
+                                <input type="text" class="form-control" id="eredmenyRT" disabled >
+                            </div>
+                        </div>
                     </form>                  
                     
                 </div>
                 
                 <div class="card bg-dark">
                     <form autocomplete="on"> 
-                        <h4>Paralelogrammma</h4>                                         
-                        <label for="Aoldal">Az "a" oldal hosszúsága</label>
-                        <input type="number" id="Aoldal" name="Aoldal">
-                        <label for="mertekegyseg"></label>
+                        <h4><a href="index.html">Paralelogramma</a></h4>                                         
+                        <label class="pt-2" for="AoldalP">Az "a" oldal hosszúsága</label>
+                        <input type="number" id="AoldalP" name="AoldalP">
+                        <label class="pl-3" for="mertekegyseg"></label>
                         <select id="mertekegyseg" name="mertekegyseg">
                           <option value="mm">mm</option>
                           <option value="cm">cm</option>
@@ -69,50 +82,53 @@
                           <option value="m">m</option>
                           <option value="km">km</option> 
                         </select> <br>
-                        <label for="Boldal">Az "b" oldal hosszúsága</label>
-                        <input type="number" id="Boldal" name="Boldal">
-                        <label for="mertekegyseg"></label>
+                        <label class="pt-2" for="BoldalP">Az "b" oldal hosszúsága</label>
+                        <input type="number" id="BoldalP" name="BoldalP">
+                        <label class="pl-3" for="mertekegyseg"></label>
                         <select id="mertekegyseg" name="mertekegyseg">
                           <option value="mm">mm</option>
                           <option value="cm">cm</option>
                           <option value="dm">dm</option>
                           <option value="m">m</option>
                           <option value="km">km</option> 
-                        </select> <br>
-                        <h5 class="text-left">Kerület</h5>
-                        <label for="Aoldal">Az "a" oldal hosszúsága</label>
-                        <input type="number" id="Aoldal" name="Aoldal">
-                        <label for="mertekegyseg"></label>
-                        <select id="mertekegyseg" name="mertekegyseg">
-                          <option value="mm">mm</option>
-                          <option value="cm">cm</option>
-                          <option value="dm">dm</option>
-                          <option value="m">m</option>
-                          <option value="km">km</option> 
-                        </select> <br>
-                        <label for="amagassag">Az "a" oldalhoz tartozó magasság</label>
-                        <input type="number" id="amagassag" name="amagassag">
-                        <label for="mertekegyseg"></label>
+                        </select> <br>                                               
+                        <label class="pt-2" for="amagassagP">Az "a" oldalhoz tartozó magasság</label>
+                        <input type="number" id="amagassagP" name="amagassagP">
+                        <label class="pl-3" for="mertekegyseg"></label>
                         <select id="mertekegyseg" name="mertekegyseg">
                             <option value="mm">mm</option>
                             <option value="cm">cm</option>
                             <option value="dm">dm</option>
                             <option value="m">m</option>
                             <option value="km">km</option> 
-                        </select> <br>
-                        <h5 class="text-left">Terület</h5>
-                        
+                        </select> <br>   
+                        <div class="row mb-2 ">
+                            <h5 class="col-12 col-md-4 py-3">
+                                <label for="eredmenyPK">Kerület</label>
+                            </h5>
+                            <div class="col-12 col-md-4 py-3">
+                                <input type="text" class="form-control" id="eredmenyPK" disabled >
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <h5 class="col-12 col-md-4 pb-3">
+                                <label for="eredmenyPT">Terület</label>
+                            </h5>
+                            <div class="col-12 col-md-4 pb-3">
+                                <input type="text" class="form-control" id="eredmenyPT" disabled >
+                            </div>
+                        </div>                                             
                     </form>                  
                     
                 </div>
             </div>
-            <div class="card-deck my-3 col-md-12">
+            <div class="card-deck my-3 col-md-16">
                 <div class="card bg-dark">
                     <form autocomplete="on"> 
-                        <h4>Kocka</h4>                                         
-                        <label for="Aoldal">Az "a" oldal hosszúsága</label>
+                        <h4><a href="index.html">Kocka</a></h4>                                         
+                        <label class="pt-2" for="AoldalK">Az "a" oldal hosszúsága</label>
                         <input type="number" id="Aoldal" name="Aoldal">
-                        <label for="mertekegyseg"></label>
+                        <label class="pl-3" for="mertekegyseg"></label>
                         <select id="mertekegyseg" name="mertekegyseg">
                           <option value="mm">mm</option>
                           <option value="cm">cm</option>
@@ -120,16 +136,30 @@
                           <option value="m">m</option>
                           <option value="km">km</option> 
                         </select> <br>
-                        <h5 class="text-left">Kerület</h5>                        
-                        <h5 class="text-left">Terület</h5>                        
+                        <div class="row mb-2">
+                            <h5 class="col-12 col-md-4 py-3">
+                                <label for="eredmenyKF">Felszín</label>
+                            </h5>
+                            <div class="col-12 col-md-4 py-3">
+                                <input type="text" class="form-control" id="eredmenyKF" disabled >
+                            </div>
+                        </div> 
+                        <div class="row mb-2">
+                            <h5 class="col-12 col-md-4 pb-3">
+                                <label for="eredmenyKT">Térfogat</label>
+                            </h5>
+                            <div class="col-12 col-md-4 pb-3">
+                                <input type="text" class="form-control" id="eredmenyKT" disabled >
+                            </div>
+                        </div>                        
                     </form>                
                 </div>
                 <div class="card bg-dark">
                     <form autocomplete="on"> 
-                        <h4>Négyzet alapú hasáb</h4>                                         
-                        <label for="Aoldal">Az "a" oldal hosszúsága</label>
+                        <h4><a href="index.html">Négyzet alapú hasáb</a></h4>                                         
+                        <label class="pt-2" for="AoldalN">Az "a" oldal hosszúsága</label>
                         <input type="number" id="Aoldal" name="Aoldal">
-                        <label for="mertekegyseg"></label>
+                        <label class="pl-3" for="mertekegyseg"></label>
                         <select id="mertekegyseg" name="mertekegyseg">
                           <option value="mm">mm</option>
                           <option value="cm">cm</option>
@@ -137,18 +167,32 @@
                           <option value="m">m</option>
                           <option value="km">km</option> 
                         </select> <br>
-                        <label for="Boldal">Az "b" oldal hosszúsága</label>
+                        <label class="pt-2" for="BoldalN">Az "b" oldal hosszúsága</label>
                         <input type="number" id="Boldal" name="Boldal">
-                        <label for="mertekegyseg"></label>
+                        <label class="pl-3" for="mertekegyseg"></label>
                         <select id="mertekegyseg" name="mertekegyseg">
                           <option value="mm">mm</option>
                           <option value="cm">cm</option>
                           <option value="dm">dm</option>
                           <option value="m">m</option>
                           <option value="km">km</option> 
-                        </select> <br>
-                        <h5 class="text-left">Kerület</h5>                        
-                        <h5 class="text-left">Terület</h5>                        
+                        </select> <br>   
+                        <div class="row mb-2">
+                            <h5 class="col-12 col-md-4 py-3">
+                                <label for="eredmenyNF">Felszín</label>
+                            </h5>
+                            <div class="col-12 col-md-4 py-3">
+                                <input type="text" class="form-control" id="eredmenyNF" disabled >
+                            </div>
+                        </div> 
+                        <div class="row mb-2">
+                            <h5 class="col-12 col-md-4 pb-3">
+                                <label for="eredmenyNT">Térfogat</label>
+                            </h5>
+                            <div class="col-12 col-md-4 pb-3">
+                                <input type="text" class="form-control" id="eredmenyNT" disabled >
+                            </div>
+                        </div>                    
                     </form>                
                 </div>
             </div>
