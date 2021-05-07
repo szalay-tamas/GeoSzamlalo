@@ -12,6 +12,7 @@
     <script src="rombusz.js"></script>
     <script src="paralelogramma.js"></script>
     <script src="kocka.js"></script>
+    <script src="hasab.js"></script>
     <title>GeoSzámláló</title>
 </head>
 <body>
@@ -161,7 +162,7 @@
                     <form autocomplete="on"> 
                         <h4><a href="index.html">Négyzet alapú hasáb</a></h4>                                         
                         <label class="pt-2" for="AoldalN">Az "a" oldal hosszúsága</label>
-                        <input oninput="szamol()" type="number" min="0" id="AoldalN" name="AoldalN">
+                        <input oninput="szamol3()" type="number" min="0" id="AoldalN" name="AoldalN">
                         <label class="pl-3" for="mertekegyseg"></label>
                         <select id="mertekegyseg" name="mertekegyseg">
                           <option value="mm">mm</option>
@@ -171,7 +172,7 @@
                           <option value="km">km</option> 
                         </select> <br>
                         <label class="pt-2"  for="BoldalN">Az "b" oldal hosszúsága</label>
-                        <input oninput="szamol()" type="number" min="0" id="BoldalN" name="BoldalN">
+                        <input oninput="szamol3()" type="number" min="0" id="BoldalN" name="BoldalN">
                         <label class="pl-3" for="mertekegyseg"></label>
                         <select id="mertekegyseg" name="mertekegyseg">
                           <option value="mm">mm</option>
