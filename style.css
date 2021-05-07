@@ -36,3 +36,9 @@ option {
 a {
     color: white;
 }
+
+a:hover {
+    color: orange;
+    background-color: transparent;
+    text-decoration: underline;
+  }
