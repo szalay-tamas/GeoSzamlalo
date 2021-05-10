@@ -6,4 +6,6 @@ function szamol3() {
     document.getElementById("eredmenyNF").value = felszin + " cm2";
     var terfogat = aoldal * aoldal * boldal;
     document.getElementById("eredmenyNT").value = terfogat + " cm3";
+
+
 }
